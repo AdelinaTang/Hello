@@ -1,0 +1,27 @@
+				Wilson's Cafe
+			    WILSON'S CAFE (SETAPAK)
+			       SDN.BHD (1018028.W)
+			      JALAN GENTING KELANG
+			   53300 SETAPAK KL, MALAYSIA
+				TEL : 011-1421-7017
+			   GST REG NO : 001940439040
+
+	User : Manager
+	----------------------------------------------------------------
+	2016-12-11 00:24:27			       Trans ID : T001
+
+	Food                     Quantity  Price per Unit   Amount(RM)
+	----------------------------------------------------------------
+	Vegetable Firecracker       5                3.00       15.00
+	Kaiso Salad                 2                3.00        6.00
+	----------------------------------------------------------------
+	Total price					        21.00
+	GST						         0.06
+	Total						        22.26
+	GRAND TOTAL to be paid				        22.26
+	CASH						        50.00
+	CHANGE						        27.74
+	----------------------------------------------------------------
+
+				  THANK YOU
+			       Please come again

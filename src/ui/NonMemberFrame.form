@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <NonVisualComponents>
+    <Component class="javax.swing.JButton" name="jbtGenerateReceipt">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Generate Receipt"/>
+      </Properties>
+    </Component>
+  </NonVisualComponents>
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="jPanel1" min="-2" max="-2" attributes="0"/>
+              <EmptySpace pref="22" max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="jPanel1" min="-2" max="-2" attributes="0"/>
+              <EmptySpace pref="21" max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JPanel" name="jPanel1">
+      <Properties>
+        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+          <Border info="org.netbeans.modules.form.compat2.border.TitledBorderInfo">
+            <TitledBorder title="Non Member">
+              <Font PropertyName="font" name="Lucida Handwriting" size="18" style="0"/>
+            </TitledBorder>
+          </Border>
+        </Property>
+      </Properties>
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                      <Component id="jlbLoyaltyPointEarned1" max="32767" attributes="0"/>
+                      <Component id="jlbTransactionID" alignment="0" min="-2" pref="82" max="-2" attributes="0"/>
+                      <Component id="jlbTotalPrice" alignment="0" min="-2" pref="82" max="-2" attributes="0"/>
+                      <Component id="jlbGST" alignment="0" min="-2" pref="82" max="-2" attributes="0"/>
+                      <Component id="jlbGrandTotal" alignment="1" pref="156" max="32767" attributes="0"/>
+                  </Group>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Component id="jbtGenerateReceipt1" min="-2" max="-2" attributes="0"/>
+                      <Component id="jtfGrandTotal" min="-2" pref="243" max="-2" attributes="0"/>
+                      <Component id="jtfGST" min="-2" pref="243" max="-2" attributes="0"/>
+                      <Component id="jtfTotalPrice" min="-2" pref="243" max="-2" attributes="0"/>
+                      <Component id="jtfTransactionID" alignment="0" min="-2" pref="243" max="-2" attributes="0"/>
+                      <Group type="102" attributes="0">
+                          <Component id="jrbCash" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace min="-2" pref="39" max="-2" attributes="0"/>
+                          <Component id="jrbCreditCard" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <EmptySpace max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="jlbTransactionID" alignment="3" min="-2" pref="26" max="-2" attributes="0"/>
+                      <Component id="jtfTransactionID" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="jlbTotalPrice" alignment="3" min="-2" pref="26" max="-2" attributes="0"/>
+                      <Component id="jtfTotalPrice" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Component id="jlbGST" min="-2" pref="26" max="-2" attributes="0"/>
+                      <Component id="jtfGST" alignment="1" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" attributes="0">
+                          <EmptySpace min="-2" pref="9" max="-2" attributes="0"/>
+                          <Component id="jlbGrandTotal" min="-2" pref="26" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="102" alignment="1" attributes="0">
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="jtfGrandTotal" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="jrbCash" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jrbCreditCard" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <Component id="jlbLoyaltyPointEarned1" alignment="0" min="-2" pref="26" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <Component id="jbtGenerateReceipt1" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JLabel" name="jlbGST">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="GST"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jlbGrandTotal">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Grand Total To Be Paid"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="jtfGST">
+        </Component>
+        <Component class="javax.swing.JTextField" name="jtfGrandTotal">
+        </Component>
+        <Component class="javax.swing.JTextField" name="jtfTotalPrice">
+        </Component>
+        <Component class="javax.swing.JLabel" name="jlbTotalPrice">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Total price"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jlbTransactionID">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Transaction ID"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="jtfTransactionID">
+        </Component>
+        <Component class="javax.swing.JLabel" name="jlbLoyaltyPointEarned1">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Payment Method"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JRadioButton" name="jrbCash">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Cash"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JRadioButton" name="jrbCreditCard">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Credit Card"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JButton" name="jbtGenerateReceipt1">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Generate Receipt"/>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>
