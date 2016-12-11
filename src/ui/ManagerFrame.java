@@ -193,7 +193,7 @@ public class ManagerFrame extends javax.swing.JFrame {
     private class SearchCustomerListener implements ActionListener {
 
         public void actionPerformed(ActionEvent e) {
-            //new SearchCustomerFrame();
+           new SearchCustomerFrame();
         }
     }
 
