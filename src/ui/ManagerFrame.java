@@ -148,7 +148,7 @@ public class ManagerFrame extends javax.swing.JFrame {
     private class DeleteFoodListener implements ActionListener {
 
         public void actionPerformed(ActionEvent e) {
-            //new DeleteMenusFrame();
+            new DeleteMenusFrame();
         }
     }
 
