@@ -88,7 +88,7 @@ public class ManagerFrame extends javax.swing.JFrame {
     private class CreateStaffListener implements ActionListener {
 
         public void actionPerformed(ActionEvent e) {
-            //new CreateStaffFrame();
+            new CreateStaffFrame();
 
         }
     }
@@ -127,21 +127,21 @@ public class ManagerFrame extends javax.swing.JFrame {
     private class CreateFoodListener implements ActionListener {
 
         public void actionPerformed(ActionEvent e) {
-            //new CreateMenusFrame();
+            new CreateMenusFrame();
         }
     }
 
     private class ReadFoodListener implements ActionListener {
 
         public void actionPerformed(ActionEvent e) {
-            //new ReadMenusFrame();
+            new ReadMenusFrame();
         }
     }
 
     private class UpdateFoodListener implements ActionListener {
 
         public void actionPerformed(ActionEvent e) {
-            //new UpdateMenusFrame();
+            new UpdateMenusFrame();
         }
     }
 
@@ -165,28 +165,28 @@ public class ManagerFrame extends javax.swing.JFrame {
     private class CreateCustomerListener implements ActionListener {
 
         public void actionPerformed(ActionEvent e) {
-            //new CreateCustomerFrame();
+            new CreateCustomerFrame();
         }
     }
 
     private class ReadCustomerListener implements ActionListener {
 
         public void actionPerformed(ActionEvent e) {
-            //new ReadCustomerFrame();
+            new ReadCustomerFrame();
         }
     }
 
     private class UpdateCustomerListener implements ActionListener {
 
         public void actionPerformed(ActionEvent e) {
-            //new UpdateCustomerFrame();
+            new UpdateCustomerFrame();
         }
     }
 
     private class DeleteCustomerListener implements ActionListener {
 
         public void actionPerformed(ActionEvent e) {
-            //new DeleteCustomerFrame();
+            new DeleteCustomerFrame();
         }
     }
 
