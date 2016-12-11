@@ -17,7 +17,7 @@ public class ManagerFrame extends javax.swing.JFrame {
         setLocationRelativeTo(null);
         setVisible(true);
         pack();
-
+        jlbName.setText(staff.getFirstName());
         jbtLogOut.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent e) {
                 int logOut = JOptionPane.showConfirmDialog(null, "Confirm to log out?", "Log out", JOptionPane.YES_NO_OPTION);
@@ -855,6 +855,7 @@ public class ManagerFrame extends javax.swing.JFrame {
     private javax.swing.JButton jbtUpdateSeat;
     private javax.swing.JButton jbtUpdateStaff;
     private javax.swing.JLabel orders;
+    private javax.swing.JLabel jlbName;
     private javax.swing.JPanel ordersPanel;
     private javax.swing.JLabel payments;
     private javax.swing.JPanel paymentsPanel;
