@@ -270,7 +270,7 @@ public class ManagerFrame extends javax.swing.JFrame {
      private class SearchOrdersListener implements ActionListener{
         
          public void actionPerformed(ActionEvent e) {
-            //new SearchOrderFrame();
+            new SearchOrderFrame();
         }
     }
      
